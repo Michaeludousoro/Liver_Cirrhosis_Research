@@ -1,0 +1,25 @@
+# Environment
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+data/
+
+# Model files
+*.h5
+*.pkl
+*.pth
+*.pt
+
+# OS files
+.DS_Store
+
+# VS Code
+.vscode/
