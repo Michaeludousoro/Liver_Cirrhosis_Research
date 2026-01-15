@@ -1,25 +1,41 @@
-# Environment
-env/
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Jupyter checkpoints
+# Jupyter Notebook
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
-# Data files
-*.csv
-*.xlsx
-data/
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
 
-# Model files
-*.h5
-*.pkl
-*.pth
-*.pt
+# Data files (uncomment if keeping data private)
+# data/raw/*.csv
+# data/processed/*.csv
 
-# OS files
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Results outputs
+results/figures/*.png
+results/figures/*.jpg
+results/tables/*.csv
+
+# Keep structure
+!**/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
 .DS_Store
 
-# VS Code
-.vscode/
+# Logs
+*.log
