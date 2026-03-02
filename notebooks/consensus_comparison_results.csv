@@ -1,0 +1,4 @@
+Method,Training_Size,Accuracy,F1_Macro,F1_Weighted,Stage1_Recall,Stage2_Recall,FID_Score
+Original,329,0.4940,0.3547,0.4751,0.0000,0.2105,N/A
+CTGAN,496,0.5060,0.3856,0.5081,0.0000,0.3158,0.0837
+Consensus,347,0.4940,0.3548,0.4795,0.0000,0.2105,0.1424
